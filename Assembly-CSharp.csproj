@@ -38,8 +38,9 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Objects\ObjectHit.cs" />
      <Compile Include="Assets\Scripts\Player\Mover.cs" />
-     <Compile Include="Assets\Scripts\Player\Scorer.cs" />
      <Compile Include="Assets\Scripts\Objects\Dropper.cs" />
+     <Compile Include="Assets\Scripts\Player\Scorer.cs" />
+     <Compile Include="Assets\Scripts\Objects\Spinner.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.48f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
