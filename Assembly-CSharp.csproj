@@ -36,9 +36,10 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets\Mover.cs" />
-     <Compile Include="Assets\ObjectHit.cs" />
-     <Compile Include="Assets\Scorer.cs" />
+     <Compile Include="Assets\Scripts\Objects\ObjectHit.cs" />
+     <Compile Include="Assets\Scripts\Player\Mover.cs" />
+     <Compile Include="Assets\Scripts\Player\Scorer.cs" />
+     <Compile Include="Assets\Scripts\Objects\Dropper.cs" />
     <Reference Include="UnityEngine">
         <HintPath>C:\Program Files\Unity\Hub\Editor\2020.3.48f1\Editor\Data\Managed\UnityEngine\UnityEngine.dll</HintPath>
     </Reference>
@@ -678,11 +679,17 @@
     <Reference Include="Unity.Analytics.DataPrivacy">
         <HintPath>C:\Repos\Unity 3D\ObstacleCourse\Library\ScriptAssemblies\Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
+    <Reference Include="Cinemachine">
+        <HintPath>C:\Repos\Unity 3D\ObstacleCourse\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Services.Core.Analytics">
         <HintPath>C:\Repos\Unity 3D\ObstacleCourse\Library\ScriptAssemblies\Unity.Services.Core.Analytics.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing.SecurityCore">
         <HintPath>C:\Repos\Unity 3D\ObstacleCourse\Library\ScriptAssemblies\UnityEngine.Purchasing.SecurityCore.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+        <HintPath>C:\Repos\Unity 3D\ObstacleCourse\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.Purchasing.Codeless">
         <HintPath>C:\Repos\Unity 3D\ObstacleCourse\Library\ScriptAssemblies\UnityEngine.Purchasing.Codeless.dll</HintPath>
@@ -710,12 +717,6 @@
     </Reference>
     <Reference Include="UnityEngine.Advertisements.Editor">
         <HintPath>C:\Repos\Unity 3D\ObstacleCourse\Library\ScriptAssemblies\UnityEngine.Advertisements.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="com.unity.cinemachine.editor">
-        <HintPath>C:\Repos\Unity 3D\ObstacleCourse\Library\ScriptAssemblies\com.unity.cinemachine.editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Cinemachine">
-        <HintPath>C:\Repos\Unity 3D\ObstacleCourse\Library\ScriptAssemblies\Cinemachine.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
